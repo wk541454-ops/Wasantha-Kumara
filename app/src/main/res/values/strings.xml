@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FriendHub</string>
+    <string name="tagline">Where Friends Connect</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="sign_in_sub">Sign in to your FriendHub account</string>
+    <string name="email_or_phone">Email or Phone Number</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="log_in">Log In</string>
+    <string name="or_divider">OR</string>
+    <string name="create_account">Create account</string>
+    <string name="connect_chat_share">CONNECT   •   CHAT   •   SHARE</string>
+    <string name="default_web_client_id">893700779160-7hva3gjj4h46lkre1aa5rm5187dbd1fo.apps.googleusercontent.com</string>
+    <string name="powered_by_cloud">Powered by FriendHub Cloud</string>
+    <string name="connecting_cloud">Connecting to FriendHub Cloud...</string>
+</resources>

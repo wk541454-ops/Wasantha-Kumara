@@ -1,0 +1,62 @@
+{
+  "collections": {
+    "users": {
+      "documents": {
+        "{userId}": {
+          "fields": {
+            "name": { "type": "string" },
+            "handle": { "type": "string" },
+            "avatarUrl": { "type": "string" },
+            "bio": { "type": "string" }
+          },
+          "collections": {
+            "settings": {
+              "documents": {
+                "{settingId}": {
+                  "fields": {
+                    "value": { "type": "any" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "posts": {
+      "documents": {
+        "{postId}": {
+          "fields": {
+            "userId": { "type": "string" },
+            "caption": { "type": "string" },
+            "imageUrl": { "type": "string" },
+            "timestamp": { "type": "timestamp" }
+          }
+        }
+      }
+    },
+    "stories": {
+      "documents": {
+        "{storyId}": {
+          "fields": {
+            "userId": { "type": "string" },
+            "mediaUrl": { "type": "string" },
+            "timestamp": { "type": "timestamp" },
+            "expiresAt": { "type": "timestamp" }
+          }
+        }
+      }
+    },
+    "presence": {
+      "documents": {
+        "{userId}": {
+          "fields": {
+            "state": { "type": "string" },
+            "lastSeen": { "type": "timestamp" },
+            "onlineStatusEnabled": { "type": "boolean" }
+          }
+        }
+      }
+    }
+  }
+}

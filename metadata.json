@@ -1,0 +1,6 @@
+{
+  "name": "FriendHub",
+  "description": "FriendHub - Where Friends Connect. Neon-themed social network with stories, live streams, marketplace, real-time notifications, messages, and settings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
